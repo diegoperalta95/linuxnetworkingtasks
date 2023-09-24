@@ -1,0 +1,53 @@
+enp0s31f6: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 38:14:28:4e:5d:52  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xa2300000-a2320000  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 6540  bytes 633802 (633.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6540  bytes 633802 (633.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp0s20f3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.184  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::2129:235:54d7:953c  prefixlen 64  scopeid 0x20<link>
+        ether f4:4e:e3:43:ff:c1  txqueuelen 1000  (Ethernet)
+        RX packets 808471  bytes 1168956317 (1.1 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 82913  bytes 14054176 (14.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+--------------------------------------
+
+IP:
+
+IP (Internet protocol) is the name of a given numerical direction of a machine on a network that identifies them, there are private and public IPs, and dynamic and static ones, they are composed of four parts (octets), each one with a range of 0 to 255, e.g: 186.55.73.128
+
+A private IP is the one used on a private network (a network that not everybody can access to), and a public IP is the one given to the user on a public environment (a network that a large number of people can connect/access)
+
+A dynamic IP is the one that changes regurarly, some ISP (internet service provider) provides this type of IPs because they are more secure for the users and is less expensive recycling IPs instead of buying more if the pool of users increases
+
+The static IP are the ones that do not change once the network is setted up
+
+Mask:
+
+Before speaking about the mask, first we need to know that, networks can (and generally will) be split into sub-networks, this leads to a more efficient way of assigning and using networks itself.
+
+The mask is a network IP that helps to split/delimit a network into sub-networkswithout going too technical, it indicates us the class of a network and of course, the range of IPs that a machine can have in that same network, having said that, there are three classes: A,B and C, (there are two more but I think one is no longer used and the other is used for some specific things), one important clarification to do is that, they are public and private classes too.
+
+Gateway:
+
+A gateway is a device that connects multiple networks, the easiest scenario is the router that everyone has in their house, the gateway is the door that connects all the devices from the house network to the internet
+
+NAT:
+
+NAT (Network Address Translation), its a way of mapping private IPs to a public one, letting different devices on a same network reach and use services from the internet
+
+

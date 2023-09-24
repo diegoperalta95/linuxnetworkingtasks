@@ -1,0 +1,19 @@
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1,6G  2,4M  1,6G   1% /run
+/dev/nvme0n1p5  110G   15G   90G  14% /
+tmpfs           7,6G  4,5M  7,6G   1% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+/dev/nvme0n1p1   96M   35M   62M  37% /boot/efi
+tmpfs           1,6G  124K  1,6G   1% /run/user/1000
+/dev/nvme0n1p3  127G   19G  109G  15% /media/user/8E48026E4802557D
+
+
+
+
+The df -h command gives us some information about the space of the system and how it is being used.
+
+The filesystem column indicates the type of filesystem used.
+The Size, Used, Avail and Use% shows us the status, how much capacity we have occuped of available for user.
+The "mounted on" column show us the route of where is it accesible for us to navigate.
+
+The -h flag makes all numerical sizes easily readable for humans, e.g instead of showing "2428" it says "2.4M"
