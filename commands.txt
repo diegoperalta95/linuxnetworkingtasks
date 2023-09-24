@@ -1,0 +1,7 @@
+man "command name" - Displays a manual of the command, it is divided into 8 sections
+mkdir "dir name" - Creates a folder with the name given
+rm "file/dir name" - Removes files or directories
+touch "file name" - Updates the access and modified time of the file to the current time or creates an empty file if there is no one with that name
+mv source destination - Moves files or directories or renames them
+cp filename1 filename2 dest - Copies one or multiple files/directories to destination
+
