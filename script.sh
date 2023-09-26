@@ -2,21 +2,15 @@
 menu=""
 
 function charCheck (){
-    if [ "$2" == "letter" ]; then
-        if [[ ! "$1" =~ ^[a-zA-Z]+$ ]]; then
-            echo "Only letters are allowed."
-            return 1
-        fi
-    elif [ "$2" == "number" ]; then
-        if [[ ! "$1" =~ ^[0-9]+$ ]]; then
-            echo "Only numbers are allowed."
-            return 1
-        fi
-    else
-        if [[ ! "$1" =~ ^[a-zA-Z.@0-9]+$ ]]; then
-            echo "Only letters and @ . are allowed"
-            return 1
-        fi
+    if [ "$2" == "letter" ] && [[ ! "$1" =~ ^[a-zA-Z]+$ ]]; then
+        echo "Only letters are allowed."
+        return 1
+    elif [ "$2" == "number" ] && [[ ! "$1" =~ ^[0-9]+$ ]]; then
+        echo "Only numbers are allowed."
+        return 1
+    elif [ "$2" == "email" ] && [[ ! "$1" =~ ^[a-zA-Z.@0-9]+$ ]]; then
+        echo "Only letters and @ . are allowed"
+        return 1
     fi
     return 0;
 }
