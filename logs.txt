@@ -2,3 +2,4 @@ The log files in the system are located in /var/logs.
 
 tail filename - Shows the last 10 lines of a file
 head -10 filename - Shows the first 10 lines of the file
+less filename - Displays the file but in a paginated version with controls

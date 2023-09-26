@@ -1,3 +1,6 @@
     PID TTY          TIME CMD
    3666 pts/0    00:00:00 bash
  102876 pts/0    00:00:00 ps
+
+
+ps - Shows the current processes running in the system, with some parameters like -e the user can see every process running
