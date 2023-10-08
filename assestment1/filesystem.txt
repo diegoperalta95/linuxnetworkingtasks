@@ -1,0 +1,9 @@
+A filesystem defines how the date is arranged and named, everytime the user does something in the system, the OS will call the file system to operate with the files being used.
+
+Some filesystems: ntfs, fat32, fat, exFat, tmfps
+
+
+Inodes are where the file metadata is stored, the file metadata is the information about the data that is not the name nor the data itself, some examples can be: the file size, owner, timestampts, etc. 
+
+
+

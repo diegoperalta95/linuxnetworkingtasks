@@ -1,0 +1,22 @@
+total 32
+drwxrwxr-x 3 user user 4096 set 23 23:20 .
+drwxr-xr-x 5 user user 4096 set 23 22:01 ..
+-rw-rw-r-- 1 user user  869 set 23 23:02 diskspace.txt
+-rw-rw-r-- 1 user user  435 set 23 23:18 filesystem.txt
+drwxrwxr-x 7 user user 4096 set 23 22:01 .git
+-rw-rw-r-- 1 user user 3221 set 23 22:40 ifconfig.log
+-rw-rw-r-- 1 user user   23 set 23 21:50 README.md
+-rw-rw-r-- 1 user user    0 set 23 23:20 showlocalfiles.txt
+-rw-rw-r-- 1 user user  357 set 23 22:48 vim.txt
+
+
+LS - shows the current files/directories in a given directory
+
+ls -l - the l flag makes the command to show every on a list
+ls -a - shows everything including the hidden files/directories
+ls -t - sorts by time & date
+ls -r - list in reverse order
+
+A user can distinguish files from directories with the first character that appears at the start of every line, if its a directory a letter "d" will appear first, if it is a file a "-" will appear
+
+

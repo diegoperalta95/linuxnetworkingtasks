@@ -1,0 +1,8 @@
+vim text.txt - To create a file 
+touch text.txt - works too
+pressing the "i" key it allows the user to insert text into the file
+after done writing, press the "esc" key to exit the insert mode
+with :wq the user can save the document and exit
+:q - quit but if there is anything unsaved it will fail
+:q! - force quit without saving unsaved changes
+:w - save 
